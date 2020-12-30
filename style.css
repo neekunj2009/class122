@@ -1,0 +1,58 @@
+  .heading {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: initial;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px grey;
+    height: 200px;
+  }
+
+  .heading_div {
+    background: black;
+    border-radius: 20px;
+    color: lime;
+    box-shadow: 5px 5px 5px grey;
+    float: none;
+    padding: 10px;
+  }
+
+  .heading_div_2 {
+    font-size: 18px;
+  }
+
+  .result_object {
+    box-shadow: 5px 5px 5px grey;
+    font-size: 20px;
+    animation-name: backgroundchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+   }
+@keyframes backgroundchange{
+  0%{box-shadow: 6px 6px 6px black;};
+  10%{box-shadow:6px 6px 6px red;};
+  20%{border-radius: 0px;};
+  30%{border-radius: 300px;};
+}
+  .result_object span {
+    white-space: pre-line;
+   }
+  
+  .copy_right_footer {
+    position: fixed;
+    color: lime;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    background-color: black;
+    text-align: center;
+  }
+
+  canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    margin-top: 160px;
+    margin-bottom: 20px;
+  }
